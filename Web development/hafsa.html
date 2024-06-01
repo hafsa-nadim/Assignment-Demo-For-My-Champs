@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Form |</title>
+</head>
+<body>
+    <center>
+     <h1><u><b> FORM :</b></u></h1>
+    </center>
+    <form action="http://www.example.com/login.php">
+        <p>Username:
+         <input type="text" name="username"size="15"
+         maxlength="30" />
+        </p>
+        </form> 
+    </p>
+    <p>Password:
+     <input type="password" name="password" size="15"
+     maxlength="30" />
+    </p>
+    </form>
+    <form action="http://www.example.com/comments.php">
+        <p>What did you think of this gig?</p>
+         <textarea name="comments" cols="20" rows="4"></textarea>
+        </form>
+        <form action="http://www.example.com/profile.php">
+            <p>Please select your favorite genre:
+             <br />
+             <input type="radio" name="genre" value="rock"
+             checked="checked" /> Rock
+             <input type="radio" name="genre" value="pop" />
+             Pop
+             <input type="radio" name="genre" value="jazz" />
+             Jazz
+            </p>
+            </form>
+            <form action="http://www.example.com/profile.php">
+                <p>Please select your favorite music service(s):
+                 <br />
+                 <input type="checkbox" name="service"
+                 value="itunes" checked="checked" /> iTunes
+                 <input type="checkbox" name="service"
+                 value="lastfm" /> Last.fm
+                 <input type="checkbox" name="service"
+                 value="spotify" /> Spotify
+                </p>
+                </form>
+                <form action="http://www.example.com/profile.php">
+                    <p>What device do you listen to music on?</p>
+                    <select name="devices">
+                     <option value="ipod">iPod</option>
+                     <option value="radio">Radio</option>
+                     <option value="computer">Computer</option>
+                     </select>
+                    </form>
+                    <form action="http://www.example.com/profile.php">
+                        <p>Do you play any of the following instruments?
+                         (You can select more than one option by holding
+                         down control on a PC or command key on a Mac
+                         while selecting different options.)</p>
+                        <select name="instruments" size="3"
+                         multiple="multiple">
+                         <option value="guitar" selected="selected">
+                         Guitar</option>
+                         <option value="drums">Drums</option>
+                         <option value="keyboard"
+                         selected="selected">Keyboard</option>
+                         <option value="bass">Bass</option>
+                        </select>
+                        </form>
+                        <p>ctrl press for multiple choice</p>
+                        <form action="http://www.example.com/upload.php"
+              method="post">
+<p>Upload your song in MP3 format:</p> -->
+<input type="file" name="user-song" /><br />
+<input type="submit" value="Upload" />
+</form>
+<form action="http://www.example.com/subscribe.php">
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email" />
+    <input type="submit" name="subscribe"
+     value="Subscribe"/>
+    </form>
+    <form action="http://www.example.org/subscribe.php">
+        <p>Subscribe to our email list:</p>
+         <input type="text" name="email" />
+         <input type="image" src="data:image/jpeg;base64,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"
+         width="200px" height="100px" />
+        </form>
+        <form action="http://www.example.com/add.php">
+            <button><img src="https://th.bing.com/th/id/OIP.3nZqdCp9zKGvr4a-F5z0qwHaHa?pid=ImgDet&w=1024&h=1024&rs=1" alt="add"
+             width="10" height="10" /> Add</button>
+            <input type="hidden" name="bookmark"
+             value="lyrics" />
+            </form> 
+            <label>Age: <input type="text" name="age" /></label>
+<br>
+Gender:
+<input id="female" type="radio" name="gender"
+value="f">
+<label for="female">Female</label>
+<input id="male" type="radio" name="gender"
+value="m">
+<label for="male">Male</label> 
+<fieldset>
+    <legend>Contact details</legend>
+    <label>Email:<br />
+    <input type="text" name="email" /></label><br />
+    <label>Mobile:<br />
+    <input type="text" name="mobile" /></label><br />
+    <label>Telephone:<br />
+    <input type="text" name="telephone" /></label>
+    </fieldset> 
+    <form action="http://www.example.com/login/"
+ method="post">
+<label for="username">Username:</label>
+<input type="text" name="username"
+ required="required" /></title><br />
+<label for="password">Password:</label>
+<input type="password" name="password"
+ required="required" />
+<input type="submit" value="Submit" />
+</form>
+<form action="http://www.example.com/bookings/"
+method="post">
+<label for="username">Departure date:</label>
+<input type="date" name="depart" />
+<input type="submit" value="Submit" />
+</form>
+<form action="http://www.example.org/subscribe.php">
+    <p>Please enter your email address:</p>
+    <input type="email" name="email" />
+    <input type="submit" value="Submit" />
+    </form>
+    <form action="http://www.example.org/profile.php">
+        <p>Please enter your website address:</p>
+        <input type="url" name="website" />
+        <input type="submit" value="Submit" />
+        </form>
+        <form action="http://www.example.org/search.php">
+            <p>Search:</p>
+            <input type="search" name="search" />
+            <input type="submit" value="Search" />
+            </form>
+            <form action="http://www.example.org/search.php">
+                <p>Search:</p>
+                <input type="search" name="search"
+                 placeholder="Enter keyword" />
+                <input type="submit" value="Search" />
+                </form>    
+</body>
+</html>
+
+
+
